@@ -1,0 +1,6 @@
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/C__ProgrammingExercises.dir
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/TaskOne.dir
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/new_target.dir
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/new_target1.dir
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
