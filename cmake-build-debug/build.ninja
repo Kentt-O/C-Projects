@@ -172,6 +172,72 @@ build new_target1.exe: CXX_EXECUTABLE_LINKER__new_target1_Debug CMakeFiles/new_t
   TARGET_IMPLIB = libnew_target1.dll.a
   TARGET_PDB = new_target1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target2
+
+
+#############################################
+# Order-only phony target for new_target2
+
+build cmake_object_order_depends_target_new_target2: phony || CMakeFiles/new_target2.dir
+
+build CMakeFiles/new_target2.dir/ChapterOne/TaskFour.cpp.obj: CXX_COMPILER__new_target2_unscanned_Debug C$:/Users/DELL/CLionProjects/C++ProgrammingExercises/ChapterOne/TaskFour.cpp || cmake_object_order_depends_target_new_target2
+  DEP_FILE = CMakeFiles\new_target2.dir\ChapterOne\TaskFour.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target2.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target2.dir\ChapterOne
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target2
+
+
+#############################################
+# Link the executable new_target2.exe
+
+build new_target2.exe: CXX_EXECUTABLE_LINKER__new_target2_Debug CMakeFiles/new_target2.dir/ChapterOne/TaskFour.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target2.exe
+  TARGET_IMPLIB = libnew_target2.dll.a
+  TARGET_PDB = new_target2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target3
+
+
+#############################################
+# Order-only phony target for new_target3
+
+build cmake_object_order_depends_target_new_target3: phony || CMakeFiles/new_target3.dir
+
+build CMakeFiles/new_target3.dir/ChapterOne/TaskFive.cpp.obj: CXX_COMPILER__new_target3_unscanned_Debug C$:/Users/DELL/CLionProjects/C++ProgrammingExercises/ChapterOne/TaskFive.cpp || cmake_object_order_depends_target_new_target3
+  DEP_FILE = CMakeFiles\new_target3.dir\ChapterOne\TaskFive.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target3.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target3.dir\ChapterOne
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target3
+
+
+#############################################
+# Link the executable new_target3.exe
+
+build new_target3.exe: CXX_EXECUTABLE_LINKER__new_target3_Debug CMakeFiles/new_target3.dir/ChapterOne/TaskFive.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target3.exe
+  TARGET_IMPLIB = libnew_target3.dll.a
+  TARGET_PDB = new_target3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +272,10 @@ build new_target: phony new_target.exe
 
 build new_target1: phony new_target1.exe
 
+build new_target2: phony new_target2.exe
+
+build new_target3: phony new_target3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +284,7 @@ build new_target1: phony new_target1.exe
 #############################################
 # Folder: C:/Users/DELL/CLionProjects/C++ProgrammingExercises/cmake-build-debug
 
-build all: phony C__ProgrammingExercises.exe TaskOne.exe new_target.exe new_target1.exe
+build all: phony C__ProgrammingExercises.exe TaskOne.exe new_target.exe new_target1.exe new_target2.exe new_target3.exe
 
 # =============================================================================
 # Built-in targets
